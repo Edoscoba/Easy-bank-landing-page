@@ -13,26 +13,32 @@
 
 body {
 font-size: 18px;
-margin: 2rem;
+background-color:hsl(0, 0%, 98%);
 
 justify-content: center;
 }
 .logo {
+    padding: 5px;
 width: 4.5rem;
 height: 15px;
+background-color: white;
 }
 .container{
-    margin: 2rem;
+   margin-left: 4rem;
+  ;
+    
 }
 
 .navigation,
 .navigate {
+  
+    background-color: hsl(0, 0%, 100%);
 
-    z-index: 1;
     display: flex; 
 }
 .navigate {
    padding-left: 20rem;
+   color:  hsl(233, 8%, 62%)
 
 }
 
@@ -41,7 +47,7 @@ height: 15px;
     width: 140px;
     height: 40px;
     border-radius: 50px;
-}
+    background: linear-gradient(117deg, hsl(136, 65%, 61%)0%,hsl(192, 70%, 61%)100%)}
 
 .section-one {
     display: flex;
@@ -51,15 +57,19 @@ height: 15px;
 }
 .next-gen {
     margin-top: 9rem;
-    width: 38rem;
+    width: 47rem;
     height: 50vh;
    
 }
 
 .mockups{
-    width:40rem;
+    width:50rem;
     height: 45rem;
     margin-left: 17rem;
+    background-image: url(images/bg-intro-desktop.svg);
+    background-position: 50% 50% ;
+    
+    justify-content: center;
 
 
 }
@@ -79,12 +89,13 @@ height: 15px;
 .banking {
     margin-left: 2.5rem;
 }
-.latest {
+#latest {
     margin-left: 2.5rem;
 }
 
 .comment-card{
     margin-left: 2.5rem;
+    
 }
 
 .Articles {
@@ -94,14 +105,19 @@ height: 15px;
 .Articles-img {
     width: 17rem;
 }
+.text {
+    color:  hsl(233, 8%, 62%)  
+}
 
 .footer {
-    margin-top: 7rem;
-   
+    margin-top: 6rem;
+    padding-top: 2rem;
+    background-color:  hsl(233, 26%, 24%);
+    color:  hsl(0, 0%, 100%);
     display: flex;
     justify-content: space-around;
-    height: 40vh;
-    padding-left: rem;
+    height: 20vh;
+  
 }
 
 .icon-handle {
@@ -115,4 +131,19 @@ li {
 .right-reserv {
     width: 2rem;
     
+}
+.request-invite-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background: linear-gradient(117deg, hsl(136, 65%, 61%)0%,hsl(192, 70%, 61%)100%)
+}
+.h-tag {
+    color: hsl(233, 26%, 24%);
+}
+.media {
+    margin-top: 2rem;
+}
+.Contact {
+    padding-top: 7px;
 }
